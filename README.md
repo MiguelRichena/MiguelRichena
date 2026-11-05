@@ -40,9 +40,9 @@ App that analyses crime data and renders a dynamic map of risk areas, with a cha
 
 ### 💸 [tio-patinhas](https://github.com/MiguelRichena/tio-patinhas) — personal finance agent on WhatsApp
 
-Assistant that logs and organises expenses over chat, persisting data in Supabase.
+Turns free-form messages (`120 - McDonald's, 60 - Zara, 80 - Cinema`) into categorised expenses stored locally in SQLite, and answers with summaries by category. No cloud, no API keys: WhatsApp, HTTP and console share the same core.
 
-`Node.js` · `Express` · `Supabase`
+`Node.js` · `SQLite` · `Express` · `Baileys`
 
 ---
 
